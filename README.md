@@ -26,6 +26,21 @@ questão terminar.
 “Descrições implícitas”
 it { … }
 
+### Customizando Matchers
+
+    failure_message do |actual|
+        "expected that #{actual} would be a multiple of #{expected}"
+    end
+
+    failure_message do |actual|
+        "expected that #{actual} would be a multiple of #{expected}"
+    end
+
+    description do
+        "be multiple of #{expected}"
+    end
+
+
 ### Hooks
 
     config.before(:suite) do
