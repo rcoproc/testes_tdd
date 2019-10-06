@@ -51,7 +51,7 @@ it { … }
     end
 
 
-### Hooks
+### Hooks - [Example[(https://github.com/rcoproc/testes_tdd/blob/master/spec/spec_helper.rb)
 
     config.before(:suite) do
         puts "antes de toda a suíte de testes"
@@ -76,6 +76,12 @@ it { … }
 * after(:each) # depois de cada teste
 
 * after(:example)
+
+### Shared Examples - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/test_doubles/user_spec.rb)
+
+    include_examples "name"
+    it_behaves_like "name"
+    it_should_behave_like "name"
 
 ### DOUBLE - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/test_doubles/user_spec.rb)
 
