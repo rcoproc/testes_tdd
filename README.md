@@ -11,7 +11,7 @@ rspec spec
 
 ## Definições
 
-### LET e LET! [Exemplo[(https://github.com/rcoproc/testes_tdd/tree/master/spec/matchers/let)
+### LET e LET! [Exemplo](https://github.com/rcoproc/testes_tdd/tree/master/spec/matchers/let)
 
 * Let: Quando você precisa atribuir uma variável, ao invés de usar um bloco before para criar uma variável de instância, use let.
 Ao usar let, a variável é carregada apenas quando ela é utilizada pela primeira vez no teste e fica na cache até o teste em
@@ -25,6 +25,9 @@ questão terminar.
 
 “Descrições implícitas”
 it { … }
+
+    it { is_expected.to cover(2) }
+    it { is_expected.to cover(2, 5) }
 
 ### Agregando Falhas - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/matchers/comparacao/comparacao_spec.rb)
 
