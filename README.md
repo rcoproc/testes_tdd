@@ -52,6 +52,10 @@ it { … }
 
 * after(:example)
 
+### DOUBLE
+
+* Dublê de Teste é um termo genérico para qualquer objeto falso, utilizado no lugar de um objeto real, para propósitos de testes.
+
 ### STUB
 
 * Um stub nada mais é do que forçar uma resposta especíica para um determinado método de um objeto colaborador.
