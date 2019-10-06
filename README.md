@@ -10,6 +10,8 @@ Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires
 
 * Documentação técnica
 
+![Pirâmide de Testes](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
+
 BetterSpecs
 
 http://www.betterspecs.org/br/
