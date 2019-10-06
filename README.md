@@ -26,6 +26,16 @@ questão terminar.
 “Descrições implícitas”
 it { … }
 
+### Agregando Falhas
+
+    config.define_derived_metadata do |meta|
+       meta[:aggregate_failures] = true
+    end
+
+    it 'teste', :aggregate_failures do
+        ...code...
+    end
+
 ### Customizando Matchers
 
     failure_message do |actual|
