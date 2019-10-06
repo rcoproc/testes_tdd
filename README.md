@@ -1,6 +1,14 @@
 # Testes TDD
 Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires
 
+* Garantir a qualidade do software
+
+* Segurança e facilidade na manutenção
+
+* Melhor design de software
+
+* Documntação técnica
+
 BetterSpecs
 
 http://www.betterspecs.org/br/
