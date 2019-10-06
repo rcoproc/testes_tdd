@@ -38,18 +38,21 @@ it { … }
 
 ### Customizando Matchers - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/matchers/custom/custom_spec.rb)
 
-    failure_message do |actual|
-        "expected that #{actual} would be a multiple of #{expected}"
-    end
+    RSpec::Matchers.define :be_a_multiple_of do |expected|
+        # expected == 3
+        # actual == subject == 18
+        match do |actual|
+            actual % expected == 0
+        end
 
-    failure_message do |actual|
-        "expected that #{actual} would be a multiple of #{expected}"
-    end
+        failure_message do |actual|
+            "expected that #{actual} would be a multiple of #{expected}"
+        end
 
-    description do
-        "be multiple of #{expected}"
+        description do
+            "be multiple of #{expected}"
+        end
     end
-
 
 ### Hooks - [Example[(https://github.com/rcoproc/testes_tdd/blob/master/spec/spec_helper.rb)
 
