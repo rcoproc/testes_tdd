@@ -81,11 +81,11 @@ it { … }
 
 * Dublê de Teste é um termo genérico para qualquer objeto falso, utilizado no lugar de um objeto real, para propósitos de testes.
 
-### STUB
+### STUB - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/stubs/stubs_spec.rb)
 
 * Um stub nada mais é do que forçar uma resposta especíica para um determinado método de um objeto colaborador.
 "Stubs são para a fase de Stup, **são usados para substituir stados**".
 
-### MOCKS
+### MOCKS - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/mocks/mocks_spec.rb)
 
 * "Mocks são para a fase e Verify, **sendo usados para testar comportamentos**"
