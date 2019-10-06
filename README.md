@@ -77,14 +77,14 @@ it { … }
 
 * after(:example)
 
-### DOUBLE
+### DOUBLE - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/test_doubles/user_spec.rb)
 
 * Dublê de Teste é um termo genérico para qualquer objeto falso, utilizado no lugar de um objeto real, para propósitos de testes.
 
 ### STUB - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/stubs/stubs_spec.rb)
 
 * Um stub nada mais é do que forçar uma resposta especíica para um determinado método de um objeto colaborador.
-"Stubs são para a fase de Stup, **são usados para substituir stados**".
+"Stubs são para a fase de Stup, **são usados para substituir estados**".
 
 ### MOCKS - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/mocks/mocks_spec.rb)
 
