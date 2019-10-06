@@ -19,7 +19,7 @@ questão terminar.
 
 * Let!: Você pode usar let! Para forçar a invocação do método/helper antes de cada teste.
 
-### One-Liner Sintax - (Exemplo)[https://github.com/rcoproc/testes_tdd/blob/master/spec/matchers/ranges/ranges_spec.rb]
+### One-Liner Sintax - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/matchers/ranges/ranges_spec.rb)
 
 * expect(subject) == is_expected
 
