@@ -7,7 +7,7 @@ Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires
 
 * Melhor design de software
 
-* Documntação técnica
+* Documentação técnica
 
 BetterSpecs
 
