@@ -26,7 +26,7 @@ questão terminar.
 “Descrições implícitas”
 it { … }
 
-### Agregando Falhas
+### Agregando Falhas - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/matchers/comparacao/comparacao_spec.rb)
 
     config.define_derived_metadata do |meta|
        meta[:aggregate_failures] = true
