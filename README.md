@@ -36,7 +36,7 @@ it { … }
         ...code...
     end
 
-### Customizando Matchers
+### Customizando Matchers - [Exemplo](https://github.com/rcoproc/testes_tdd/blob/master/spec/matchers/custom/custom_spec.rb)
 
     failure_message do |actual|
         "expected that #{actual} would be a multiple of #{expected}"
