@@ -1,6 +1,6 @@
 # Testes TDD com Rspec
 
-Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires. [Exemplos completos](https://github.com/jacksonpires/rails-tdd)
+Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires. [Exemplos completos](https://github.com/jacksonpires/rails-tdd), 115 aulas, 15:37:08.
 
 * Garantir a qualidade do software
 
