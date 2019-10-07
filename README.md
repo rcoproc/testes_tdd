@@ -12,6 +12,16 @@ Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires
 
 ![Pirâmide de Testes](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
 
+## Premissas básicas de testes
+
+* Testes devem ser confiáveis
+
+* Testes devem ser fáceis de escrever
+
+* Teste devem ser fáceis de entender hoje e no futuro
+
+* Não estamos focados em velocidade!
+
 BetterSpecs
 
 http://www.betterspecs.org/br/
