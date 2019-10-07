@@ -12,7 +12,7 @@ Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires
 
 ![Pirâmide de Testes](https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png)
 
-## Premissas básicas de testes
+## Premissas básicas de testes:
 
 * Testes devem ser confiáveis
 
@@ -21,6 +21,16 @@ Exemplo dos testes TDD da Udemy, Curso de TDD, rspec e capybara do Jackson Pires
 * Teste devem ser fáceis de entender hoje e no futuro
 
 * Não estamos focados em velocidade!
+
+## Padrão dos testes em 4 fases:
+
+* Setup: Quando você coloca o SUT (system under test, o objeto sendo testado) no estado necessário para o teste;
+
+* Exercise: Quando você interage com o SUT;
+
+* Verify: Quando você verifica o comportamento esperado;
+
+* Teardown: Quando você coloca o sistema no estado em que ele estava antes do teste ser executado. Rspec faz isto automaticamente.
 
 BetterSpecs
 
